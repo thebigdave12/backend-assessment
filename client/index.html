@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+  </head>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,900;0,1000;1,700;1,800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap" rel="stylesheet">
+  <h1>Self Esteem Booster!</h1>
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png" alt="Smiley Face Image">
+
+  <h2>Compliment Generator:</h2>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+    <button id="getAllComplimentsButton">See all compliments</button>
+    <button id="deleteCompliment">Delete a random compliment</button>
+    <br>
+    <br>
+    <form id="newComplimentForm"> 
+      <input type="text"
+             id="newCompliment"
+             placeholder="Add Compliment Here"/>
+             <button>Add Compliment</button>
+    </form>
+    <br>
+    
+    </form>
+    <section id="complimentsContainer"></section>
+    <h2>-----------------------------------------------</h2>
+    <h2>Fortune Generator:</h2>
+    <button id="fortuneButton">Get a fortune</button>
+    <br>
+    <br>
+    <form id="newEmojiAddition"> 
+      <input type="text"
+             id="newEmoji"
+             placeholder="Add Emoji Here"/>
+             <button>Add Emoji to Fortunes</button>
+
+    <section id="fortunesContainer"></section>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>

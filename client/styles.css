@@ -1,0 +1,24 @@
+body {
+    background-color: lightyellow;
+    position: relative;
+    text-align: center;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+    background-color: azure;
+    color: darkslateblue;
+    border-color: black;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
